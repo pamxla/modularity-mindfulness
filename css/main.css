@@ -56,3 +56,9 @@ header img {
   margin: 0;
   padding: 1rem;
 }
+
+section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 1fr 1fr 1fr;
+}

@@ -59,8 +59,17 @@ header img {
   padding: 1rem;
 }
 
+i {
+  font-size: 2rem;
+  text-align: center;
+}
+
 section {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+}
+
+article {
+  margin: 1.5rem;
 }

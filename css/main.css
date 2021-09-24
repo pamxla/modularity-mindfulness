@@ -29,11 +29,20 @@ img {
 ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+}
+
+li {
+  padding: .5em 1em .6em;
 }
 
 a{
   color: #3783a3;
   font-size: 1.125rem;
+}
+
+header img {
+  margin: 0;
+  padding: 1rem;
 }

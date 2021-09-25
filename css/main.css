@@ -68,6 +68,7 @@ i {
 }
 
 header p {
+  font-size: 1.5rem;
   text-align: center
 }
 
@@ -93,4 +94,8 @@ h4 {
 
 article p {
   font-size: 1.5rem;
+}
+
+footer {
+  text-align: center;
 }

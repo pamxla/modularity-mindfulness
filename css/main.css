@@ -124,8 +124,7 @@ footer {
   }
 
   ul {
-    justify-content:flex-end;
-    margin: 1.5rem;
+    justify-content: flex-end;
   }
 
   section {
@@ -133,4 +132,8 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 1rem;
+}
+
+article a {
+  align-content: flex-end;
 }

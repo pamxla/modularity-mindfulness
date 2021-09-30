@@ -50,6 +50,7 @@ ul {
   justify-content: center;
   align-items: center;
   margin: 0;
+  padding: 0;
 }
 
 li {
@@ -91,7 +92,7 @@ article a {
   border: solid;
   color: #3783a3;
   text-decoration: none;
-  padding: .5em 1em .6em;
+  padding: 1.25rem;
   border-radius: .2rem;
   display: flex;
   flex-direction: row;

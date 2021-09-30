@@ -41,6 +41,7 @@ h1 {
   display: flex;
   flex-direction: column;
   text-align: center;
+  font-size: 1rem;
 }
 
 ul {
@@ -90,10 +91,11 @@ article a {
   border: solid;
   color: #3783a3;
   text-decoration: none;
-  padding: 1.5rem;
+  padding: .5em 1em .6em;
   border-radius: .2rem;
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 footer hr {
@@ -104,17 +106,4 @@ footer hr {
 footer {
   text-align: center;
   font-size: 1.125rem;
-}
-
-@media only screen and (min-width: 38rem) {
-
-h1 {
-  text-align: left;
-  font-size: 1rem;
-  margin: 1.5rem;
-}
-
-ul {
-  justify-content: flex-end;
-}
 }

@@ -123,4 +123,14 @@ footer {
     margin: 1.5rem;
   }
 
+  ul {
+    justify-content:flex-end;
+    margin: 1.5rem;
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;
 }

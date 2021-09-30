@@ -84,15 +84,15 @@ h2 {
 }
 
 article p {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 article a {
-  font-size: 1.5rem;
+  font-size: 1rem;
   border: solid;
   color: #3783a3;
   text-decoration: none;
-  padding: 1.25rem;
+  padding: .5rem;
   border-radius: .2rem;
   display: flex;
   flex-direction: row;
@@ -107,4 +107,20 @@ footer hr {
 footer {
   text-align: center;
   font-size: 1.125rem;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.5;
+  }
+
+  h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 1.5rem;
+  }
+
 }

@@ -27,14 +27,16 @@ main img {
   width: 100%;
 }
 
-hr {
-  border: 0;
-  border-top: 4px solid #e2e2e2;
-  margin-top: 2rem;
+.intro {
+  border-top: 2px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 main {
-  margin: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 h1 {
@@ -42,6 +44,8 @@ h1 {
   flex-direction: column;
   text-align: center;
   font-size: 1rem;
+  margin: 0;
+  margin-top: 1rem;
 }
 
 ul {
@@ -54,7 +58,8 @@ ul {
 }
 
 li {
-  padding: .5em 1em .6em;
+  padding: 0 1em;
+  margin-bottom: 1rem;
 }
 
 a {
@@ -99,14 +104,11 @@ article a {
   flex-wrap: nowrap;
 }
 
-footer hr {
-  margin-bottom: 2rem;
-  margin-top: 0;
-}
-
 footer {
   text-align: center;
   font-size: 1.125rem;
+  border-top: 2px solid #e2e2e2;
+  margin-top: 1.5rem;
 }
 
 @media only screen and (min-width: 38em) {
@@ -153,10 +155,6 @@ footer {
     width: 50%;
     margin-left: 16rem;
     margin-right: 16rem;
-  }
-
-  main hr {
-    width: 50%;
   }
 
 }

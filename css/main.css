@@ -58,7 +58,7 @@ ul {
 }
 
 li {
-  padding: 0 1em;
+  padding: 0 1em 0;
   margin-bottom: 1rem;
 }
 
@@ -104,11 +104,14 @@ article a {
   flex-wrap: nowrap;
 }
 
+footer hr {
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
 footer {
   text-align: center;
   font-size: 1.125rem;
-  border-top: 2px solid #e2e2e2;
-  margin-top: 1.5rem;
 }
 
 @media only screen and (min-width: 38em) {

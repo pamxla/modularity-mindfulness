@@ -151,6 +151,12 @@ footer {
 
   div {
     width: 50%;
+    margin-left: 16rem;
+    margin-right: 16rem;
+  }
+
+  main hr {
+    width: 50%;
   }
 
 }

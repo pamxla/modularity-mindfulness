@@ -121,7 +121,15 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  nav {
+    padding-right: .5rem;
+  }
+
+  h1 {
+    text-align: left;
   }
 
   section {
@@ -135,6 +143,14 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+  }
+
+}
+
+@media only screen and (min-width: 62.5em) {
+
+  div {
+    width: 50%;
   }
 
 }

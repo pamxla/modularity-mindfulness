@@ -116,15 +116,12 @@ footer {
     line-height: 1.5;
   }
 
-  h1 {
+  header {
     display: flex;
-    flex-direction: column;
-    text-align: left;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     margin: 1.5rem;
-  }
-
-  ul {
-    justify-content: flex-end;
   }
 
   section {
@@ -132,8 +129,12 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 1rem;
-}
+  }
 
-article a {
-  align-content: flex-end;
+  article {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
 }
